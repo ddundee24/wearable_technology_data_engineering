@@ -169,3 +169,10 @@ print(activity_athlete_detail_df.columns.tolist())
 activity_athlete_columns = ['activity_id','activity_athlete_id','first_name','last_name']
 activity_athlete_final = activity_athlete_detail_df[activity_athlete_columns]
 activity_athlete_final.head()
+
+os.makedirs('data',exist_ok=True)
+athlete_final.to_parquet('data/athlete.parquet',index=False)
+period_final.to_parquet('data/period.parquet',index=False)
+period_athlete_final.to_parquet('data/period_athlete.parquet',index=False)
+activity_period_final.to_parquet('data/activity_period.parquet',index=False)
+activity_athlete_final.to_parquet('data/activity_athlete.parquet',index=False)
