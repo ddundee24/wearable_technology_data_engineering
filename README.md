@@ -24,7 +24,7 @@ An ingestion and transformation pipeline for **Catapult Sports** wearable data.
 - **Azure Data Lake Gen2**
 - **Azure Data Factory**
 - **Parquet file format** for optimized cloud storage
-- Structured for modular expansion (e.g., Whoop, Zephyr, Oura)
+- Structured for modular expansion (Vald)
 
 ---
 
