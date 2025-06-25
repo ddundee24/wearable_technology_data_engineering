@@ -52,21 +52,6 @@ python api_ingestion.py
 
 ---
 
-## Output Structure in Azure
-
-Your data will be organized like this in Azure Data Lake:
-
-```
-catapult/
-├── athletes.parquet
-├── thresholds.parquet
-└── workouts.parquet
-```
-
-These files can be consumed by Azure Data Factory pipelines.
-
----
-
 ## Environment Variables
 
 Defined in `.env` (example provided in `.env.example`):
